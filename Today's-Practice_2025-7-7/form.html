@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Pendaftaran</title>
+</head>
+<body>
+  <h1>Formulir <br>Pendaftaran</h1>
+  <fieldset>
+    <label for="name">Nama Lengkap</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label for="tl">Tanggal Lahir</label>
+    <input type="date" id="tl" min="1920-01-01" max="2025-12-31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="gender">Jenis Kelamin</label>
+    <input type="radio" id="gender" name="gender">Perempuan
+    <input type="radio" id="gender" name="gender">Laki-laki
+    <br>
+    <br>
+    <label for="school">Asal Sekolah</label>
+    <input type="text" id="school">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="class">Kelas</label>
+    <input type="text" id="class">
+    <br>
+    <br>
+    <label for="address">Alamat</label>
+    <textarea name="address" id="address" rows="1" cols="100"></textarea>
+    <br>
+    <br>
+    <label for="telp">No. Telp</label>
+    <input type="tel" id="telp" placeholder="088416164829" pattern="[0-9]{4}[0-9]{4}[0-9]{4}">
+    <br>
+    <br>
+    <label for="name_ortu">Nama Orang Tua</label>
+    <input type="text" id="name_ortu">
+    <br>
+    <br>
+    <label for="job">Pekerjaan Orang Tua</label>
+    <input type="text" id="job">
+    <br>
+    <br>
+    <label for="program">Program Kursus</label>
+    <input type="text" id="program">
+    <br>
+    <br>
+    <label for="course_day">Hari Kursus</label>
+    <input type="radio" id="course_day" name="course_day">Senin &amp; Kamis
+    <input type="radio" id="course_day" name="course_day">Selasa &amp; Jumat
+    <input type="radio" id="course_day" name="course_day">Rabu &amp; Sabtu
+    <br>
+    <br>
+    <label for="course_time">Waktu Kursus</label>
+    <input type="radio" id="course_time" name="course_time">14:00 - 15:30
+    <input type="radio" id="course_time" name="course_time">16:00 - 17:30
+    <input type="radio" id="course_time" name="course_time">19:00 - 20:30
+    <br>
+	<br> 
+</fieldset>
+</body>
+</html>
