@@ -1,0 +1,57 @@
+body {
+  background-color: #ffeb9b;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+fieldset {
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+input[type='text']#school {
+  width: auto;
+}
+
+.gender {
+  float: left;
+}
+
+input[type='text']#school {
+  width: auto;
+}
+input[type='text'] {
+  border-radius: 20px;
+  padding: 2.5px;
+  border: none;
+  background-color: #ecf9e2;
+  width: 25%;
+}
+
+input[type='date'] {
+  border-radius: 20px;
+  padding: 2.5px;
+  border: none;
+  background-color: #ecf9e2;
+  width: auto;
+}
+
+input[type='tel'] {
+  border-radius: 20px;
+  padding: 2.5px;
+  border: none;
+  background-color: #ecf9e2;
+  width: 25%;
+}
+
+textarea {
+  border-radius: 20px;
+  padding: 2.5px;
+  border: none;
+  background-color: #ecf9e2;
+  width: 95%;
+}
