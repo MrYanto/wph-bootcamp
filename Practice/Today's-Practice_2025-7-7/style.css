@@ -7,10 +7,11 @@ h1 {
 }
 
 fieldset {
+  padding: 100px;
   border: none;
   border-radius: 20px;
   background-color: #fff;
-  padding: 20px;
+  box-sizing: border-box;
 }
 
 input[type='text']#school {

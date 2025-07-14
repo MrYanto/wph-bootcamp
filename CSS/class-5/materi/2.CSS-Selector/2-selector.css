@@ -1,0 +1,84 @@
+/* Contoh Elemen HTML */
+h3 {
+  text-decoration: underline;
+  color: red;
+}
+
+/* Contoh Class (.0 */
+.container {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+/* Contoh ID (#) */
+#paragraph {
+  color: rgb(8, 65, 115);
+  text-decoration: underline;
+}
+
+/* Contoh kombinasi */
+span.teks-edit#teksEdit{
+  color: yellow;
+  background-color: aqua;
+}
+
+/* Contoh Grouping (,) */
+h3, h4, h5 {
+  color: red;
+}
+
+/* Contoh Attribute ([]) */
+a[href] {
+  color: red;
+  text-decoration: none;
+}
+
+/* Contoh Descendant ( ) */
+div.descendant p {
+  color: blue
+}
+
+/* Contoh Child (>) */
+div.child > p {
+  color: red
+}
+
+/* Adjacent Sibling Selector (+) */
+h2 + p {
+  color: red;
+}
+
+/* General Sibling Selector (~)*/
+h3 ~ p {
+  color: purple
+}
+
+*{
+  background-color: #bbb;
+}
+
+/* Psuedo-Class Selector*/
+button:hover {
+  background-color: pink;
+  transition: ease-in-out 0.5s;
+  transform: translateX(100px);
+}
+
+button:not(:hover) {
+  transition: ease-in-out 1s;
+  transform: translateX(0px);
+}
+
+/* Psuedo-Element Selector */
+
+ul{
+  list-style: none;
+}
+
+li::before {
+  content: "👉 ";
+}

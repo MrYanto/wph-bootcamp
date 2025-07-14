@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Cascade - Class 5</title>
+  <style>
+    /* p {
+      color: blueviolet !important;
+    } */
+    p{
+      color : red
+    }
+    p{
+      color :green
+    }
+    #mefirst {
+      color: aqua;
+    }
+    .mesecond {
+      color: bisque;
+    }
+    
+
+
+  </style>
+</head>
+<body>
+  <h1>Materi CSS Cascade</h1>
+  <ol>
+    <li>Urutan Kemunculan (Order of Appearance)</li>
+    <li>Spesifisitas (Specifity)</li>
+    <li>Kepentingan (Importance)</li>
+  </ol>
+
+  <h6>Bisa dilihat di dalem codingan</h6>
+
+  <h2>1. Urutan Kemunculan (Order of Appearance)</h2>
+  <p>color red</p>
+  <p>color green</p> 
+
+  <h2>2. Spesifisitas (Specifity)</h2>
+  <p id="mefirst">ada ID nih</p>
+  <p class="mesecond">ada Class nih</p>
+  <p id="mefirst" class="mesecond">combination, ID get the first</p>
+
+  <h2>3. Kepentingan (Importance)</h2>
+  <p>POKOKNYA HARUS BLUEVIOLET</p>
+</body>
+</html>
